@@ -16,7 +16,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
 
         Button b = new Button(this);
-
+        btToast = (Button) findViewById(R.id.btToast);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
